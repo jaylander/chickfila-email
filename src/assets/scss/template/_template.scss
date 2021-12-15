@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+th[valign="middle"] {
+    vertical-align: middle;
+}
+
+.header {
+    border-bottom: 1px #e1e2e4 solid;
+    &__logo {
+        height: 69px !important;
+        width: 69px !important;
+    }
+}
+
+hr {
+    width: 616px;
+    border: 1px solid #d7d7d7;
+}
+
+.main-body {
+    background: #f4f8f9;
+    background-color: #f4f8f9;
+    &__wrapper {
+        background: $white;
+        background-color: $white;
+    }
+
+    &__row {
+        width: 565px !important;
+        margin: 0 auto;
+    }
+
+    & .wrapper-inner {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    & h1 {
+        font-family: "Roboto", Arial, Helvetica Neue, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        color: #5b6770;
+        letter-spacing: -1px;
+        line-height: 50px;
+    }
+
+    & h3 {
+        font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica,
+            sans-serif;
+        font-weight: 600;
+        color: #5b6770;
+        font-size: 15px;
+        line-height: 23px;
+        text-transform: uppercase;
+        padding-bottom: 40px !important;
+    }
+
+    &__caption {
+        font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica,
+            sans-serif;
+        font-weight: 400;
+        color: #5b6770;
+        padding: 30px 20px 30px 0px !important;
+        font-size: 16px;
+    }
+    &__order-customer p {
+        font-family: "Franklin Gothic Medium", "Franklin Gothic",
+            "ITC Franklin Gothic", Arial, sans-serif;
+        color: #776e64;
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+
+    &__table {
+        width: 616px !important;
+        margin: 0 auto;
+    }
+    &__table span {
+        font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica,
+            sans-serif;
+        font-weight: 400;
+        color: #5b6770;
+        font-size: 15px;
+        line-height: 23px;
+        width: 100%;
+    }
+    &__table-heading {
+        background: #f4f4f4;
+        background-color: #f4f4f4;
+    }
+    &__table-heading th {
+        padding-top: 10px !important;
+    }
+    &__table-heading .first th,
+    &__table-order .first span {
+        padding-left: 15px;
+    }
+    &__table-heading span {
+        font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica,
+            sans-serif;
+        font-weight: 600;
+        color: #5b6770;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    &__table-order th {
+        padding: 0 !important;
+    }
+    &__totals {
+        width: 564px !important;
+        margin: 0 auto !important;
+    }
+    &__totals p {
+        font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica,
+            sans-serif;
+        font-weight: 600;
+        color: #5b6770;
+        font-size: 15px;
+        line-height: 23px;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+.footer {
+    &__top {
+        background: #d30021;
+        background-color: #d30021;
+        &-img {
+            height: 187px !important;
+            width: 285px !important;
+        }
+        &-btn {
+            height: 40px !important;
+            width: 250px !important;
+        }
+        &-text {
+            color: #ffffff;
+            font-size: 18px;
+            line-height: 23px;
+            font-family: sans-serif;
+            margin: 20px 0 28px !important;
+        }
+    }
+    &__social-links img {
+        height: 30px !important;
+        width: 30px !important;
+    }
+    &__terms {
+        &-links a {
+            font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica,
+                sans-serif;
+            font-weight: 600;
+            color: #5b6770;
+            font-size: 11px;
+            padding-top: 25 px;
+            padding-bottom: 10 px;
+        }
+    }
+    &__terms p {
+        font-family: sans-serif;
+        color: #5b6770;
+        font-size: 10px;
+        padding-top: 15 px;
+        font-weight: 400;
+        margin: 0 0 17px !important;
+    }
+}
